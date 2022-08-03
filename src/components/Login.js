@@ -18,7 +18,7 @@ const Login = () => {
             return;
         }
         if(username !=='foo' || password !=='bar'){
-            alert('Please enter valid username and password')
+            alert('Please enter valid username foo and password bar')
         }
         if (username === 'foo' && password === 'bar') {
             navigate('/home')

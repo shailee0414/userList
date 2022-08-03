@@ -38,13 +38,14 @@ const Home = () => {
                     setData(response?.data?.results);
                     temp.current = num + 50;
                 }
+
                 setIsLoading(false);
             })
             .catch(() => {
                 setIsLoading(false);
             });
-    };
 
+    };
     const handleScroll = () => {
         const bottom =
             Math.ceil(window.innerHeight + window.scrollY) >=
@@ -63,7 +64,7 @@ const Home = () => {
     };
 
     return (
-        <div style={{paddingBottom:'30px'}}>
+        <div style={{ paddingBottom: '30px' }}>
             <Navbar />
             {data?.map((item) => {
                 return <UserData item={item} key={item?.login?.uuid} />;
