@@ -28,7 +28,7 @@ const Login = () => {
     }
     
     return (
-        <div className="s" style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', marginTop: '6rem' ,   marginLeft:'4rem',   marginRight:'4rem'}}>
+        <div className="s" style={{ display: 'flex', justifyContent: 'center', alignContent: 'center', marginTop: '6rem' ,   marginLeft:'5rem',   marginRight:'5rem'}}>
             <div className="login-form" style={{ border: "solid 1px grey", borderRadius: '10px', padding: '20px', width: '40rem' }}>
                 <form className="ui form">
                     <div className="field">
